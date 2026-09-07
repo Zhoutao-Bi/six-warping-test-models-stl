@@ -1,0 +1,138 @@
+{
+  "status": "pass",
+  "units": "mm",
+  "height_mm": 2.0,
+  "tolerances": {
+    "area_mm2": 0.02,
+    "dimension_mm": 0.03,
+    "volume_mm3": 1.0
+  },
+  "models": [
+    {
+      "index": 1,
+      "name": "五角星基准",
+      "checks": {
+        "svg_valid": true,
+        "svg_single_component_no_holes": true,
+        "svg_area_matches_source": true,
+        "stl_watertight": true,
+        "stl_winding_consistent": true,
+        "stl_one_body": true,
+        "stl_positive_volume": true,
+        "stl_bounds_match_svg": true,
+        "stl_volume_matches_extrusion": true
+      },
+      "svg_area_mm2": 3019.99998,
+      "stl_volume_mm3": 6040.000021,
+      "expected_volume_mm3": 6039.99996,
+      "stl_faces": 36,
+      "stl_vertices": 20,
+      "bound_max_error_mm": 2.556e-06
+    },
+    {
+      "index": 2,
+      "name": "双向箭头板",
+      "checks": {
+        "svg_valid": true,
+        "svg_single_component_no_holes": true,
+        "svg_area_matches_source": true,
+        "stl_watertight": true,
+        "stl_winding_consistent": true,
+        "stl_one_body": true,
+        "stl_positive_volume": true,
+        "stl_bounds_match_svg": true,
+        "stl_volume_matches_extrusion": true
+      },
+      "svg_area_mm2": 3020.0,
+      "stl_volume_mm3": 6040.000183,
+      "expected_volume_mm3": 6040.0,
+      "stl_faces": 36,
+      "stl_vertices": 20,
+      "bound_max_error_mm": 0.0
+    },
+    {
+      "index": 3,
+      "name": "对角 X 形板",
+      "checks": {
+        "svg_valid": true,
+        "svg_single_component_no_holes": true,
+        "svg_area_matches_source": true,
+        "stl_watertight": true,
+        "stl_winding_consistent": true,
+        "stl_one_body": true,
+        "stl_positive_volume": true,
+        "stl_bounds_match_svg": true,
+        "stl_volume_matches_extrusion": true
+      },
+      "svg_area_mm2": 3019.999948,
+      "stl_volume_mm3": 6039.999924,
+      "expected_volume_mm3": 6039.999896,
+      "stl_faces": 28,
+      "stl_vertices": 16,
+      "bound_max_error_mm": 0.0
+    },
+    {
+      "index": 4,
+      "name": "三叉梳形板",
+      "checks": {
+        "svg_valid": true,
+        "svg_single_component_no_holes": true,
+        "svg_area_matches_source": true,
+        "stl_watertight": true,
+        "stl_winding_consistent": true,
+        "stl_one_body": true,
+        "stl_positive_volume": true,
+        "stl_bounds_match_svg": true,
+        "stl_volume_matches_extrusion": true
+      },
+      "svg_area_mm2": 3020.000014,
+      "stl_volume_mm3": 6040.000027,
+      "expected_volume_mm3": 6040.000028,
+      "stl_faces": 96,
+      "stl_vertices": 50,
+      "bound_max_error_mm": 0.0
+    },
+    {
+      "index": 5,
+      "name": "C 形开口环",
+      "checks": {
+        "svg_valid": true,
+        "svg_single_component_no_holes": true,
+        "svg_area_matches_source": true,
+        "stl_watertight": true,
+        "stl_winding_consistent": true,
+        "stl_one_body": true,
+        "stl_positive_volume": true,
+        "stl_bounds_match_svg": true,
+        "stl_volume_matches_extrusion": true
+      },
+      "svg_area_mm2": 3020.000001,
+      "stl_volume_mm3": 6039.999915,
+      "expected_volume_mm3": 6040.000002,
+      "stl_faces": 1124,
+      "stl_vertices": 564,
+      "bound_max_error_mm": 2.94e-07
+    },
+    {
+      "index": 6,
+      "name": "五旋臂叶轮板",
+      "checks": {
+        "svg_valid": true,
+        "svg_single_component_no_holes": true,
+        "svg_area_matches_source": true,
+        "stl_watertight": true,
+        "stl_winding_consistent": true,
+        "stl_one_body": true,
+        "stl_positive_volume": true,
+        "stl_bounds_match_svg": true,
+        "stl_volume_matches_extrusion": true
+      },
+      "svg_area_mm2": 3019.999966,
+      "stl_volume_mm3": 6040.000232,
+      "expected_volume_mm3": 6039.999933,
+      "stl_faces": 116,
+      "stl_vertices": 60,
+      "bound_max_error_mm": 2.958e-06
+    }
+  ]
+}
